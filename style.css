@@ -1,28 +1,148 @@
-body {
-  margin: 0;
-  padding: 0;
-}
 .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: black;
-  position: fixed;
   width: 100%;
   padding: 10px 20px;
-  top: 0;
-  z-index: 1000;
   text-indent: 3px;
-  font-size: large;
+  font-size: 14px;
+}
+.right {
+  float: right;
+} 
+.left {
+  float: left;
+}
+.logo {
+  height: auto;
+  max-width: 100px;
 }
 .menu a {
   color: white;
   text-decoration: none;
   margin: 5px;
 }
+#search-button {
+  color: aliceblue;
+  background-color: black;
+}
+#bars-button {
+  color: aliceblue;
+  background-color: black;
+}
 .subscribe {
   background-color: brown;
+  border:1px solid brown;
   color: white;
   border-radius: 5px;
-  font-size: large;
+  font-size: 12px;
+}
+.principal {
+  border: 1px solid rgb(223, 219, 219);
+  padding: 5px 10px;
+  width: 50%;
 }
 .hierarchy {
-  color: gray;
+  margin-top: 20px;
+}
+.hierarchy a {
+  text-decoration: none;
+  color: rgb(143, 137, 137);
+  padding-left: 4px;
+  font-size: 12px;
+}
+.name i {
+  border: 1px solid rgb(145, 137, 137) ;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  color:rgb(10, 10, 154)
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+aside {
+  text-align: center;
+}
+.one {
+  float:left;
+  width: 60%;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-right: 2px;
+}
+.two {
+  float: right;
+  width: 40%;
+  font-size: 16px;
+  border: 1px solid rgb(216, 211, 211);
+  padding: 25px 25px 25px 25px;
+}
+.two a {
+  text-decoration: none;
+  color: blue;
+}
+.two p {
+  text-align: left;
+}
+.one a {
+  text-decoration: none;
+  color: blue;
+}
+#dot {
+  text-decoration-line: underline;
+  text-decoration-style: dotted; 
+}
+.name a {
+  text-decoration: none;
+  color: blue;
+}
+.name h1 {
+  font-size: 24px;
+}
+.name h4 {
+  font-size: 16px;
+}
+.name p {
+  font-size: 12px;
+}
+.btn {
+  padding: 10px;
+  color: blue;
+  border-radius: 5px;
+  border-color: rgb(208, 204, 204);
+  background-color: transparent;
+  font-size: 12px;
+}
+.container2 p {
+  text-align: left;
+}
+.card {
+  border: 2px solid;
+  padding: 15px;
+  border-color: rgb(225, 217, 217);
+  border-radius: 3px;
+}
+hr {
+  color: #817d7d;
+  height: 2px;
+  background-color: #eee0e0;
+  border: none;
+}
+.image-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.zoom-button {
+  position: absolute;
+  bottom: 80px;
+  right: 110px;
+  background-color:white;
+  color:black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
